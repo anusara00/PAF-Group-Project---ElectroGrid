@@ -28,7 +28,17 @@
 	
 <servlet-mapping>
 		 <servlet-name>Jersey Web Application</servlet-name>
- 		 <url-pattern>/InquiryService/*</url-pattern>
+ 		 <url-pattern>/NoticeService/*</url-pattern>
+</servlet-mapping>
+	
+<servlet-mapping>
+		 <servlet-name>Jersey Web Application</servlet-name>
+ 		 <url-pattern>/BillService/*</url-pattern>
+</servlet-mapping>
+	
+<servlet-mapping>
+		 <servlet-name>Jersey Web Application</servlet-name>
+ 		 <url-pattern>/MeterHandlingService/*</url-pattern>
 </servlet-mapping>
 	
 <servlet-mapping>
